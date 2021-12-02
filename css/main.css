@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: acumin-pro, sans-serif;
+  font-family: acumin-pro-wide, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -9,18 +9,29 @@ html {
   box-sizing: inherit;
 }
 
-nav > ul {
-  font-family: acumin-pro-wide, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  list-style-type: none;
-  text-decoration: underline;
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
-body > div > ul {
-  font-family: acumin-pro-wide, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+nav > ul {
   list-style-type: none;
   text-decoration: underline;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header > div > ul {
+  list-style-type: none;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
