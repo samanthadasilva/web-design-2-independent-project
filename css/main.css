@@ -11,27 +11,32 @@ html {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "nav nav list"
+  "h1 . .";
 }
 
-nav > ul {
+.nav {
   list-style-type: none;
   text-decoration: underline;
   display: flex;
+  grid-area: nav;
   justify-content: space-around;
-
 }
 
-header > div > ul {
+.list {
   list-style-type: none;
   text-decoration: underline;
   display: flex;
+  grid-area: list;
   justify-content: space-around;
 }
 
 h1 {
-  font-family: acumin-pro-wide, sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  font-weight: 600;
+  grid-area: h1;
+  padding-left: 1rem;
+  margin-top: 0;
 }
