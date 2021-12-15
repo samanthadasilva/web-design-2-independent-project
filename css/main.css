@@ -189,6 +189,37 @@ img {
     display: block;
   }
 
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "simple simple"
+      "simple simple"
+      "staple rt"
+      "rp rs";
+  }
+
+  .simple {
+    grid-area: simple;
+  }
+
+  .staple {
+    display: block;
+  }
+
+  .rt {
+    display: block;
+  }
+
+  .rp {
+    display: block;
+  }
+
+  .rs {
+    display: block;
+  }
+
   footer a {
     float: left;
     color: black;
@@ -354,6 +385,15 @@ img {
 
   .faye {
     display: block;
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "simple simple staple rt"
+      "simple simple rp rs";
   }
 
   footer a {
