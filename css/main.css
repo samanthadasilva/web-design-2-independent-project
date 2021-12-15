@@ -397,6 +397,26 @@ img {
       "simple simple rp rs";
   }
 
+  .simple {
+    grid-area: simple;
+  }
+
+  .staple {
+    display: block;
+  }
+
+  .rt {
+    display: block;
+  }
+
+  .rp {
+    display: block;
+  }
+
+  .rs {
+    display: block;
+  }
+
   footer a {
     float: left;
     color: black;
