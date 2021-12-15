@@ -9,11 +9,18 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main" class="skip">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header role="banner">
-    <nav class="nav">
-      <a href="index.html">Shop All</a>
-      <a href="sale.html">Sale</a>
-      <a href="#">Coming Soon</a>
+    <nav role="navigation" class="nav" id="nav" tabindex="0">
+      <ul>
+        <li><a href="index.html">Shop All</a></li>
+        <li><a href="sale.html">Sale</a></li>
+        <li><a href="#">Coming Soon</a></li>
+      </ul>
     </nav>
 
     <div class="list">
@@ -27,32 +34,32 @@
     <h1>Coming Soon</h1>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <section class="section1">
-      <img class="plaid" src="images/plaid-blazer.jpg" alt="">
+      <img class="plaid" src="images/plaid-blazer.jpg" alt="Woman wearing a brown and beige button-up blazer">
       <figure class="image">
-        <img class="daisy" src="images/daisy-dress.jpg" alt="">
+        <img class="daisy" src="images/daisy-dress.jpg" alt="Woman wearing a light blue dress covered in darker blue flowers">
         <figcaption class="overlay">
           <h2>Daisy Dress</h2>
           <p class="price">$60.00 CAD</p>
         </figcaption>
       </figure>
       <figure class="image">
-        <img class="blossom" src="images/blossom-dress.jpg" alt="">
+        <img class="blossom" src="images/blossom-dress.jpg" alt="Woman wearing a short pink dress covered in small flowers">
         <figcaption class="overlay">
           <h2>Blossom Dress</h2>
           <p class="price">$70.00 CAD</p>
         </figcaption>
       </figure>
       <figure class="image">
-        <img class="sprite" src="images/sprite-heal.jpg" alt="">
+        <img class="sprite" src="images/sprite-heal.jpg" alt="Woman squating wearing silver high heels">
         <figcaption class="overlay">
           <h2>Sprite Heal</h2>
           <p class="price">$75.00 CAD</p>
         </figcaption>
       </figure>
       <figure class="image">
-        <img class="tank" src="images/staple-tank-beige.jpg" alt="">
+        <img class="tank" src="images/staple-tank-beige.jpg" alt="Woman wearing tan cloured tanktop">
         <figcaption class="overlay">
           <h2>Sand Staple Tank</h2>
           <p class="price">$50.00 CAD</p>
@@ -61,30 +68,30 @@
     </section>
 
     <section class="section2">
-      <img class="classic" src="images/classic-jumpsuit.jpg" alt="">
+      <img class="classic" src="images/classic-jumpsuit.jpg" alt="Woman wearing a navy shortsleeve jumpsuit">
       <figure class="image">
-        <img class="jumpsuit" src="images/plaid-jumpsuit.jpg" alt="">
+        <img class="jumpsuit" src="images/plaid-jumpsuit.jpg" alt="Woman laying on couch wearing blue and white plaid jumpsuit">
         <figcaption class="overlay">
           <h2>Plaid Jumpsuit</h2>
           <p class="price">$120.00 CAD</p>
         </figcaption>
       </figure>
       <figure class="image">
-        <img class="pastel" src="images/pastel-blazer.jpg" alt="">
+        <img class="pastel" src="images/pastel-blazer.jpg" alt="Two women wearing pastel blazers, one green, one pink">
         <figcaption class="overlay">
           <h2>Pastel Blazer</h2>
           <p class="price">$100.00 CAD</p>
         </figcaption>
       </figure>
       <figure class="image">
-        <img class="faye" src="images/faye-bag.jpg" alt="">
+        <img class="faye" src="images/faye-bag.jpg" alt="Woman holding a purple and orange bag">
         <figcaption class="overlay">
           <h2>Faye Bag</h2>
           <p class="price">$60.00 CAD</p>
         </figcaption>
       </figure>
       <figure class="image">
-        <img class="rj" src="images/ribbed-jumpsuit.jpg" alt="">
+        <img class="rj" src="images/ribbed-jumpsuit.jpg" alt="Woman wearing a brown ribbed long sleeved jumpsuit">
         <figcaption class="overlay">
           <h2>Ribbed Jumpsuit</h2>
           <p class="price">$120.00 CAD</p>
@@ -93,7 +100,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <nav>
       <ul>
 
