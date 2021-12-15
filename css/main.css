@@ -29,8 +29,8 @@ img {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "nav list"
-    "h1 .";
+      "nav list"
+      "h1 .";
   }
 
   header a {
@@ -67,10 +67,10 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "blazer blazer"
-    "blazer blazer"
-    "daisy blossom"
-    "sprite tank";
+      "blazer blazer"
+      "blazer blazer"
+      "daisy blossom"
+      "sprite tank";
   }
 
   .plaid {
@@ -101,12 +101,12 @@ img {
 
   .overlay {
     position: absolute;
-    bottom: 0.5rem;
-    padding-left: 0.5rem;
+    bottom: .5rem;
+    padding-left: .5rem;
     width: 100%;
     height: 100%;
     color: #fff;
-    font-size: 0.75rem;
+    font-size: .75rem;
   }
 
   .price {
@@ -127,10 +127,10 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "classic classic"
-    "classic classic"
-    "pastel jumpsuit"
-    "rj faye";
+      "classic classic"
+      "classic classic"
+      "pastel jumpsuit"
+      "rj faye";
   }
 
   .classic {
@@ -165,8 +165,8 @@ img {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "nav list"
-    "h1 .";
+      "nav list"
+      "h1 .";
   }
 
   header a {
@@ -203,8 +203,8 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "blazer blazer daisy blossom"
-    "blazer blazer sprite tank";
+      "blazer blazer daisy blossom"
+      "blazer blazer sprite tank";
   }
 
   .image {
@@ -220,7 +220,7 @@ img {
     color: #fff;
     font-size: 1.5em;
     opacity: 0;
-    transition: opacity 0.15s;
+    transition: opacity .15s;
   }
 
   h2 {
@@ -267,8 +267,8 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "pastel jumpsuit classic classic"
-    "rj faye classic classic";
+      "pastel jumpsuit classic classic"
+      "rj faye classic classic";
   }
 
   .classic {
